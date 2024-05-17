@@ -1,0 +1,20 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "FENZIGO"
+            }
+        ],
+        "Category": "Utilities",
+        "Description": "Ryzenadj minimalistic gui",
+        "Icon": "new-command-alarm",
+        "License": "GPL-3.0-or-later",
+        "Name": "SteamDeck TDP",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.0"
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml"
+}
