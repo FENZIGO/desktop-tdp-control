@@ -55,7 +55,7 @@ ColumnLayout {
     function runCommand1() {
         
             let value = slider.value;
-            let command = `konsole -e sudo bash -c "/home/deck/.local/share/plasma/plasmoids/metadata/contents/libs/ryzenadj --stapm-limit=${value}000 --fast-limit=${value}000 --slow-limit=${value}000; read -p 'Press any key to continue...'"`;
+            let command = `konsole -e sudo bash -c "$HOME/.local/share/plasma/plasmoids/metadata/contents/libs/ryzenadj --stapm-limit=${value}000 --fast-limit=${value}000 --slow-limit=${value}000; read -p 'Press any key to continue...'"`;
             execute.run(command);
             } 
             
