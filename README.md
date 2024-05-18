@@ -8,7 +8,7 @@ This applet allows you to manage the TDP (Thermal Design Power) settings of your
 
 1. Download "SteamDeck.TDP.plasmoid" from releases.
 2. Run "kpackagetool5 -i SteamDeck.TDP.plasmoid" from konsole in your Download directory.
-3. PPM>Add Widgets... Add "SteamDeck TDP" widget.
+3. On your desktop: PPM>Add Widgets... Add "SteamDeck TDP" widget.
 4. By entering PPM>Enter Edit Mode, you can place the widget anywhere you want.
 
 
